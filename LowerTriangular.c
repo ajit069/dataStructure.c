@@ -18,7 +18,7 @@ int main(){
             }
         }
     }
-    if(count > 0)
+    if(count == 0)
     printf("This given matrix is a Lower Triangular Matrix.");
     
     else
