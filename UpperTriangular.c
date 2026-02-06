@@ -13,7 +13,8 @@ int main(){
     for(i = 0; i < r; i++){
         for(j = 0; j < c; j++){
             scanf("%d", &A[i][j]);
-            if(A[i][j] == 0 && i > j){
+
+             if (i > j && A[i][j] != 0) {
                 count++;
             }
         }
